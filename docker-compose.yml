@@ -9,7 +9,7 @@ services:
         uid: 1002
       context: .
       dockerfile: Dockerfile
-    image: khamty/php
+    image: /php
     container_name: app
     restart: unless-stopped
     tty: true
